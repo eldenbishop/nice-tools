@@ -1,0 +1,23 @@
+apply plugin: 'java'
+//apply plugin: 'groovy'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.intellij:annotations:12.0'
+//    testCompile 'junit:junit:4.11'
+//    testCompile 'org.codehaus.groovy:groovy-all:2.4.1'
+//    testCompile 'org.gmock:gmock:0.8.3'
+}
+
+//idea {
+//    project {
+//        languageLevel = '1.8'
+//    }
+//}
+
